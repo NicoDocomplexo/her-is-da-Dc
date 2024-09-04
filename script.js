@@ -59,7 +59,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = 'Em Dc, ${nome}' ;
+    caixaPerguntas.textContent = Em DC, ${nome};
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
@@ -79,4 +79,4 @@ function substituiNome() {
     }
 }
 
-substituiNome()
+substituiNome();
